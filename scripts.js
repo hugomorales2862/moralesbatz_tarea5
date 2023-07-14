@@ -6,11 +6,11 @@ const tabla = document.querySelector('table')
 // validaciones 
 
 tabla.style.display = 'none'
-const consultarPokemon = async (e) => {
+const consultarRandom = async (e) => {
     e.preventDefault();
-    let nombrePokemon = formulario.pokemon.value;
-    if(nombrePokemon == ''){
-        alert("Debe ingregar el nombre del pokemon")
+    let nombreRandom = formulario.Random.value;
+    if(nombreRandom == ''){
+        alert("Debe ingregar el nombre del Random")
         return;
     }
 
