@@ -1,5 +1,8 @@
+const formulario = document.querySelector('form')
+const button = document.getElementById('buttonConsulta')
+
 const consultaAPI = async (e) => {
-    const url = `./consulta.php`
+    const url = `consulta.php`
     const config = {
         method : 'GET'
     }
