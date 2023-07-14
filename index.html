@@ -5,28 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tarea 5</title>
 </head>
-<style>
-    table {
-      border-collapse: collapse;
-      width: auto;
-      margin: 10px;
-    }
-  
-    table td, table th {
-      border: 1px solid black;
-      padding: 8px;
-    }
-  </style>
 <body>
     <h1>api fetch y validacion php</h1>
-    <form>
-        <input type="text" name="Random" id="Random">
+    <form method="POST">
+        <input type="text" name="pokemon" id="pokemon">
         <button type="submit">Consultar</button> 
         <button id="buttonConsulta" type="button">Consultar a PHP</button>
     </form>
     <br>
     <p id="estado"></p>
-    <table >
+    <table>
         <thead>
             <tr>
                 <th>DATO</th>
@@ -36,19 +24,19 @@
         <tbody>
             <tr>
                 <td>NOMBRE</td>
-                <td id="nombreRandom"></td>
+                <td id="nombrePokemon"></td>
             </tr>
             <tr>
                 <td>PESO</td>
-                <td id="pesoRandom"></td>
+                <td id="pesoPokemon"></td>
             </tr>
             <tr>
                 <td>TIPO</td>
-                <td id="tipoRandom"></td>
+                <td id="tipoPokemon"></td>
             </tr>
             <tr>
                 <td>IMAGEN</td>
-                <td><img src="" alt="" id="imagenRandom"></td>
+                <td><img src="" alt="" id="imagenPokemon"></td>
             </tr>
         </tbody>
     </table>
